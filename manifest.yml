@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: fncesar-iot-coursera1
+  host: fncesar-iot-coursera1
+  disk_quota: 1024M
+  services:
+  - fncesar-iot-coursera1-cloudantNoSQLDB
+  - fncesar-iot-coursera1-iotf-service
